@@ -51,7 +51,7 @@ APaddle::APaddle()
 	TimeToSpawnShoot = 1.0f;
 	Projectile = FVector(0.0f, 0.0f, 0.0f);
 
-	LifeTime = 5;
+	LifeTime = 3;
 	Level = 1;
 	GameOver = 0;
 	Winner = 0;
