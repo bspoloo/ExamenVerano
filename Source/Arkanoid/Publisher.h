@@ -34,9 +34,9 @@ private:   //The Subscribers of this Publisher
 	//creamos un TArray que almacenara los subscriptores
 	UPROPERTY() 
 	TArray<AActor*> Subscribers = TArray<AActor*>(); 
-public:    
-	//funcion virtual que subscribira a los subscriptores
+public:  
 
+	//funcion virtual que subscribira a los subscriptores
 	virtual void Subscribe(AActor* Subscriber);  
 
 	//Remueve al subscriptor del TArray
